@@ -1,0 +1,140 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'loto', sans-serif;
+	background: url(logback.jpg);
+}
+
+.button a
+{
+  display: inline-block;
+	padding: 10px 20px;
+	color: #E33C3C;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	margin-top: 25px;
+	margin-left: 10%;
+	letter-spacing: 4px;
+	background-color: #CBEFF0;
+	font-family: 'Kaushan Script', cursive;
+	animation-delay: 1s;
+}
+
+.button a:hover
+{
+	background-color: #E33C3C;
+	color: #fff;
+	box-shadow: 0 0 3px #E33C3C,
+	            0 0 9px #E33C3C,
+	            0 0 27px #E33C3C,
+	            0 0 81px #E33C3C;
+}
+.wrapper
+{
+	position: relative;
+	height: 100vh;
+}
+
+.wrapper
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),url('img/123861.jpg');
+	background-size: cover;
+	padding: 40px;
+	border-radius: 0;
+	box-shadow: o 15px 25px rgba(0, 0, 0, 0.6)
+}
+
+.title h2
+{
+	margin: 0 0 30px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding: 0;
+	color: #fff;
+	text-align: left;
+	font-family: 'Kaushan Script', cursive;
+	animation-delay: 1s;
+
+}
+
+
+.form .input_field
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background-color: transparent;
+
+
+}
+
+.form .input_field label
+{
+	width: 200px;
+	margin-right: 10px;
+	font-size: 20px;
+		font-family: 'Caveat', cursive;
+		animation-delay: 1.2s;
+}
+
+.form .input_field .custom_select
+{
+	margin-left: 60px;
+		font-family: 'Caveat', cursive;
+}
+
+.form .input_field .custom_select1
+{
+	margin-left: 55%;
+		font-family: 'Caveat', cursive;
+}
+
+.form .input_field .custom_select2
+{
+	margin-left: 75%;
+		font-family: 'Caveat', cursive;
+}
+
+.form a
+{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #0F1111;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	margin-top: 20px;
+	letter-spacing: 4px;
+	background-color: #03e9f4;
+	border: 1px solid #03e9f4;
+	font-family: 'Kaushan Script', cursive;
+	animation-delay: 1.2s;
+	animation-iteration-count: infinite;
+
+}
+
+.form a:hover
+{
+	background-color: #03e9f4;
+	color: #fff;
+	box-shadow: 0 0 3px #03e9f4,
+	            0 0 9px #03e9f4,
+	            0 0 27px #03e9f4,
+	            0 0 81px #03e9f4;
+}
+
+
