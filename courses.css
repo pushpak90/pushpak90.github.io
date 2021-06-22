@@ -451,3 +451,457 @@ h3 {
     font-size: 14px;
     font-style: italic;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #041017;
+    line-height: 50px;
+}
+
+.wrapper img {
+    margin-left: 6em;
+    float: left;
+}
+
+nav span h3 {
+    float: left;
+    margin: 0;
+    color: #27D8CC;
+    margin-left: 2em;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+    animation-delay: 0.5s;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+    color: #03e9f4;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    color: #03e9f4;
+    font-size: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5px;
+    -webkit-box-reflect: below 1px linear-gradient(trasparent, #0005)
+}
+
+nav ul li a:hover {
+    background: #03e9f4;
+    color: #00090F;
+    font-weight: bold;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+
+nav ul li a span {
+    position: absolute;
+    display: block;
+}
+
+#container {
+    position: relative;
+    width: 1200px;
+    margin: 10px auto;
+    height: 300px;
+}
+
+.parent .child {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(650px - 50px);
+    background: #01070c;
+    float: left;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.parent2 .boy {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(650px - 50px);
+    background: #01070c;
+    float: left;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.parent3 .girl {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(650px - 50px);
+    background: #01070c;
+    float: center;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card {
+    position: relative;
+    width: "100%";
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%
+}
+
+.heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 5%;
+    text-shadow: 20px 20px 20px #035c63;
+    font-size: 60px;
+    color: rgb(19, 233, 179);
+    text-decoration: underline;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+.heading2 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 20px 20px 20px #00ffbf;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+#para {
+    color: #A66FF6;
+    position: relative;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+.child {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    box-shadow: 7px 5px 40px #00ff00;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #E33C3C;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-top: 25px;
+    margin-left: 10%;
+    letter-spacing: 4px;
+    background-color: #CBEFF0;
+    font-family: 'Kaushan Script', cursive;
+    animation-delay: 1.5s;
+}
+
+.button a:hover {
+    background-color: #E33C3C;
+    color: #fff;
+    box-shadow: 0 0 3px #E33C3C, 0 0 9px #E33C3C, 0 0 27px #E33C3C, 0 0 81px #E33C3C;
+}
+
+.boy {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    border: 2px solid;
+    box-shadow: 7px 5px 40px #00ff00;
+}
+
+#cavi {
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.girl {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    border: 2px solid;
+    box-shadow: 7px 5px 40px #00bfff;
+}
+
+#parent {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #01070c;
+}
+
+h2 {
+    color: #ac1313;
+}
+
+p {
+    color: azure;
+}
+
+#child2 {
+    box-shadow: 7px 5px 40px #00bfff;
+    float: center;
+    margin-left: 30px;
+}
+
+#boy2 {
+    box-shadow: 7px 5px 40px #00bfff;
+}
+
+#pink {
+    box-shadow: 7px 5px 40px #00ff00;
+}
+
+.hred {
+    color: brown;
+    font-size: 18px;
+}
+
+.hblue {
+    color: rgb(123, 123, 241);
+    font-size: 18px;
+}
+
+.hgreen {
+    color: rgb(12, 170, 12);
+    font-size: 18px;
+}
+
+.hyellow {
+    color: rgb(185, 185, 76);
+    font-size: 18px;
+}
+
+#line {
+    float: center;
+    color: yellowgreen;
+}
+
+.sort10 {
+    font-size: 30px;
+}
+
+.redbox {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(350px - 50px);
+    background: #01070c;
+    float: left;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 7px 5px 40px #ff0000;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.bluebox {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(350px - 50px);
+    background: #01070c;
+    float: right;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 7px 5px 40px #0004ff;
+    text-align: center;
+}
+
+.greenbox {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(350px - 50px);
+    background: #01070c;
+    float: left;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 7px 5px 40px #00ff40;
+    text-align: center;
+}
+
+.yellowbox {
+    position: relative;
+    width: calc(350px - 20px);
+    height: calc(350px - 50px);
+    background: #01070c;
+    float: right;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 7px 5px 40px yellow;
+    text-align: center;
+}
+
+#red {
+    color: teal;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+#blue {
+    color: teal;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+#green {
+    color: teal;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+#yellow {
+    color: teal;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fondamento', cursive;
+}
+
+#pink {
+    float: right;
+}
+
+.p {
+    font-family: 'Caveat', cursive;
+}
+
+h3 {
+    color: brown;
+    font-family: 'Caveat', cursive;
+}
+
+.example {
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.line {
+    color: darkgoldenrod;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.line1 {
+    color: darkgoldenrod;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.end {
+    color: white;
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+}
+
+.endp {
+    color: olive;
+    font-size: 35px;
+}
+
+#cavi {
+    font-size: 18px;
+}
+
+.wrap {
+    background: url(aboutback.jpg);
+    padding: 1rem 0;
+    border-top: 3px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.logo span {
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #A2DBEC;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.content {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #C2CED2;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+.social_icons {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.social_icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.contact_info {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact_info a {
+    text-decoration: none;
+    color: #50F0DD;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px 20px;
+}
+
+.Copyright p {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+}
