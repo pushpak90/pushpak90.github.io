@@ -193,14 +193,15 @@ nav ul li a span {
 
 .wand img {
     overflow: hidden;
+    padding-right: 3%;
     width: 40%;
     height: 40%;
     float: right;
-    display: inline-block;
     margin-top: 10%;
 }
 
 .sort1 span h1 {
+    padding-top: 5%;
     margin-top: 5%;
     align-items: center;
     color: #fff;
