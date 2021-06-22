@@ -98,7 +98,7 @@ nav ul li a span {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(img/123861.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('img/123861.jpg');
     background-size: cover;
     padding: 40px;
     border-radius: 0;
@@ -176,7 +176,7 @@ nav ul li a span {
 }
 
 .wrap {
-    background-image: url(img/aboutback.jpg);
+    background: url(img/aboutback.jpg);
     padding: 1rem 0;
     border-top: 3px solid #fff;
     border-bottom: 5px solid #fff;
